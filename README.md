@@ -10,6 +10,11 @@ npx create-expo-app mobile-app --template blank
 
 npm install @react-navigation/native 
 
+npx create-expo-app mobile-app
+cd mobile-app
+npm install axios react-navigation react-native-safe-area-context react-native-screens
+npx expo install react-native-gesture-handler
+
 npx expo install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-vector-icons react-native-pager-view 
 
 npm install @react-navigation/native-stack 
